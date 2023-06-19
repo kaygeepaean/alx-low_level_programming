@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+*main - Entry point
+*Description:the function generates a random numbers check negative or positve
+*Returns: 0 on successful execution
+*/
 int main(void)
 {
 int n;

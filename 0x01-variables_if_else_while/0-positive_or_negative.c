@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
 /**
 *main - Entry point
 *Description:the function generates a random numbers check negative or positve
-*Returns: 0 always (success)
+*Returns: always 0
 */
 int main(void)
 {

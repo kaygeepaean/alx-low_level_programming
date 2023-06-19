@@ -6,7 +6,7 @@
 /**
 *main - Entry point
 *Description:the function generates a random numbers check negative or positve
-*Returns: 0 on successful execution
+*Returns: 0 always (success)
 */
 int main(void)
 {

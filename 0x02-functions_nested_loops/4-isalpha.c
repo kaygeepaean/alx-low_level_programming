@@ -1,10 +1,7 @@
 #include "main.h"
 /**
-*_isalpha - shows 1 if the input is a
-*lowercase character. Another cases, shows 0
-*
-*@c: The character in ASCII code
-*
+*_isalpha - check for alphabetic character
+*@c: The character to be checked
 *Return: 1 for lowercase character. 0 for the rest.
 */
 int _isalpha(int c)

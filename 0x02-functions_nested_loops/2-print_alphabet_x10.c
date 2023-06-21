@@ -1,8 +1,7 @@
 #include"main.h"
 /**
-*main - Entry point
-*Description: 'void print_alphabet_x10'
-*Return:always 0
+*print_alphabet_x10-make alphabet_x10'
+*Return: void
 */
 void print_alphabet_x10(void)
 {

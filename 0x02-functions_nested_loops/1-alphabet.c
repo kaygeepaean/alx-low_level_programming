@@ -1,8 +1,8 @@
 #include"main.h"
 /**
-*main - Entry point
-*Description: 'alphabet in lowercase, and then in uppercase'
-*Return:always 0
+*print_alphabet - make the alphabet 
+*
+*Return:void
 */
 void print_alphabet(void)
 {
@@ -10,6 +10,5 @@ int i;
 	
 for (i = 97; i <= 122; i++)
 _putchar(i);
-}
-_putchar('\n')
+_putchar('\n');
 }

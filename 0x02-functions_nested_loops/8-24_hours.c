@@ -1,31 +1,36 @@
 #include "main.h"
-/**
-*jack_bauber - prints the minutes of the day
-*
-*Return: no return
-*/
-void jack_bauer(void)
-{
-int a, b, c, d;
 
-for(a = 0; a <= 2; a++)
+/**
+ * times_table - prints the 9 times table, starting with 0
+ */
+void times_table(void)
 {
-for (b = 0' b <= 9; b++)
+int a, b, c, d, e;
+
+for (a = 0; a <= 9; a++)
 {
-for (c = 0' c <= 5; c++)
+for (b = 0; b <= 9; b++)
 {
-for (d = 0' d <= 9; d++)
+c = a * b;
+if (c > 9)
+{			
+d = c % 10;
+e = (c - d) / 10;
+_putchar(44);
+_putchar(32);
+_putchar(e + '0');
+_putchar(d + '0');
+}
+else
 {
-if (a >= 2 && b >= 4)
-break;
-_putchar('a + 48');
-putchar('b + 48');
-putchar('58');
-putchar('c + 48');
-putchar('d + 48');
-putchar('\n');
+if (y != 0)
+_putchar(44);
+_putchar(32);
+_putchar(32);
+}
+_putchar((c + '0');
 }
 }
-}
+_putchar('\n');
 }
 }

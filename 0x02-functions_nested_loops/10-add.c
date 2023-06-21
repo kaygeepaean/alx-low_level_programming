@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*print_last_digit-print the last digit
+*add-add two values
 *@n1: the first number to be computed
-*@n2:the second number to be computed 
+*@n2:the second number to be computed
 *Return: integer value
 */
 

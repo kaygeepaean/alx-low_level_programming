@@ -2,7 +2,6 @@
 
 /**
  * main - entry point
- *
  * Description: Prints the numbers 1 - 100 with
  * "Fizz" for multiples of 3, "Buzz" for multiples of 5,
  * and "FizzBuzz" for multiples of both
@@ -24,5 +23,5 @@ else
 printf("%d ", i);
 }
 printf("\n");
-return 0;
+return (0);
 }

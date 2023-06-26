@@ -14,5 +14,5 @@ while (s[string_length])
 {
 string_length++;
 }
-return string_length;
+return (string_length);
 }

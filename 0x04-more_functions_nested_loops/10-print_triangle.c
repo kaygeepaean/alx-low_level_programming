@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_triangle - prints a triangle of a given size
@@ -11,18 +12,21 @@ int row, hashes, spaces;
 
 if (size <= 0)
 {
-_putchar('\n');
-else
+putchar('\n');
 }
+else
+{
 for (row = 1; row <= size; row++)
 {
 for (spaces = size - row; spaces >= 1; spaces--)
 {
-_putchar(' ');
-for (hashes = 1; hashes <= row; hashes++)
-_putchar('#');
+putchar(' ');
 }
-_putchar('\n');
+for (hashes = 1; hashes <= row; hashes++)
+{
+putchar('#');
+}
+putchar('\n');
 }
 }
 }

@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,8 +10,8 @@
 int main(void)
 {
 char *s;
+s = ("Betty Holberton");
 
-s = str_concat("Betty ", "Holberton");
 if (s == NULL)
 {
 printf("failed\n");
@@ -19,18 +20,4 @@ return (1);
 printf("%s\n", s);
 free(s);
 return (0);
-}
-/**
-* str_concat - Concatenates two strings.
-* @s1: The first string.
-* @s2: The second string.
-*
-* Return: A pointer to the concatenated string, or NULL on failure.
-*/
-char *str_concat(const char *s1, const char *s2)
-{
-/* Implementation of str_concat function */
-/* ... */
-/* ... */
-/* Return the concatenated string */
 }

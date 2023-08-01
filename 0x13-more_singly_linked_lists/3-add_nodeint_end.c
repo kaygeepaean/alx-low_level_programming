@@ -6,7 +6,7 @@
 * add_nodeint_end - Adds a new node at the end of a listint_t list.
 * @head: The address of the head pointer of the linked list.
 * @n: The value to be saved in the new node.
-* Return: The memort allocation of the new element, or NULL if it failed.
+* Return: The memory allocation of the new element, or NULL if it failed.
 */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
